@@ -1,0 +1,6 @@
+-- Color Schema --
+1. Black: (20, 20, 20)
+2. Menu: (45, 53, 89)
+3. score/txt: (226, 188, 0)
+4. Bullet Color: (250, 10, 10)
+5. Button: (90, 200, 30)
