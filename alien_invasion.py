@@ -19,6 +19,7 @@ def run_game():
     screen = pygame.display.set_mode(
         (ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption('Alien Invasion')
+
     sb = Scoreboard(ai_settings, screen, stats)
     # Make the Play button
     menu = Menu(ai_settings, screen, stats)

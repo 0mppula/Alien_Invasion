@@ -19,7 +19,7 @@ class Ship(Sprite):
         # Start each ship at the bottom center of the screen
         # Aligns the x coordinates of ship's center with x coordinates of screens center
         self.rect.centerx = self.screen_rect.centerx
-        self.rect.bottom = self.screen_rect.bottom - 5  # Push 5px from bottom of screen
+        self.rect.bottom = self.screen_rect.bottom - 5  # 5px from bottom of screen
 
         # Store a decimal value of the ship's center
         self.center = float(self.rect.centerx)

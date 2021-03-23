@@ -32,7 +32,6 @@ class Button():
 
     def prep_msg(self, stats):
         """ Turn msg into a rendered image and center text on the button. """
-
         self.prep_text(stats)
         self.msg_image = self.font.render(self.msg, True, self.text_color,
                                           self.button_color)

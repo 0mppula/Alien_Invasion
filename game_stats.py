@@ -34,6 +34,7 @@ class GameStats():
         except FileNotFoundError:
             high_score = 0
             return int(high_score)
+
         else:
             high_score = 0
             return int(high_score)

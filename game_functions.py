@@ -82,7 +82,6 @@ def start_new_game(ai_settings, screen, stats, sb, ship, bullets, aliens):
     sb.prep_images()
     stats.game_active = True
     stats.game_ended = False
-    # Empty the list of aliens and bullets
     aliens.empty()
     bullets.empty()
     # Create a new fleet and center the ship
@@ -321,7 +320,6 @@ def ship_hit(ai_settings, stats, sb, menu, screen, ship, aliens, bullets):
         # Create a new fleet and center the ship
         create_fleet(ai_settings, screen, ship, aliens)
         ship.center_ship()
-        # Pause
         sleep(0.5)
     else:
         stats.game_active = False

@@ -35,7 +35,6 @@ class Menu():
 
     def prep_msg(self, stats):
         """ Turn the message into a rendered image. """
-
         self.prep_text(stats)
         self.msg_image = self.font.render(
             self.msg, True, self.text_color, self.bg_color)
